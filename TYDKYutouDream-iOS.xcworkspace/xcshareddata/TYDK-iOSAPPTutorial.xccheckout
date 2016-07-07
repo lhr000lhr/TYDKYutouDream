@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>35A91242-C537-4C09-AA4B-24E4D5D3E40E</string>
+	<key>IDESourceControlProjectName</key>
+	<string>TYDK-iOSAPPTutorial</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>F7F31BCE9307E352EB03BF60278D8C20F1F455F3</key>
+		<string>http://218.17.162.137:11111//lhr000lhr/TYDK-APPTutorial.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>TYDK-iOSAPPTutorial/TYDK-iOSAPPTutorial.xcworkspace</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>F7F31BCE9307E352EB03BF60278D8C20F1F455F3</key>
+		<string>../..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>http://218.17.162.137:11111//lhr000lhr/TYDK-APPTutorial.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>111</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>F7F31BCE9307E352EB03BF60278D8C20F1F455F3</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>F7F31BCE9307E352EB03BF60278D8C20F1F455F3</string>
+			<key>IDESourceControlWCCName</key>
+			<string>TYDK-APPTutorial</string>
+		</dict>
+	</array>
+</dict>
+</plist>

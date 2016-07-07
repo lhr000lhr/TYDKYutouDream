@@ -1,0 +1,6 @@
+framework module NYSegmentedControl {
+  umbrella header "NYSegmentedControl-umbrella.h"
+
+  export *
+  module * { export * }
+}

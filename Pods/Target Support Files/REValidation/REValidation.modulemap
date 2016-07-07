@@ -1,0 +1,6 @@
+framework module REValidation {
+  umbrella header "REValidation-umbrella.h"
+
+  export *
+  module * { export * }
+}

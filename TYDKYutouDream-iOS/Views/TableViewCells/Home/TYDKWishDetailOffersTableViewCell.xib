@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="10116" systemVersion="15D21" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="10085"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" rowHeight="90" id="cEi-91-JGy" customClass="TYDKWishDetailOffersTableViewCell">
+            <rect key="frame" x="0.0" y="0.0" width="320" height="90"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="cEi-91-JGy" id="ysX-pX-f8A">
+                <rect key="frame" x="0.0" y="0.0" width="320" height="89.5"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="ic_logo" translatesAutoresizingMaskIntoConstraints="NO" id="o9c-6b-eeM">
+                        <rect key="frame" x="14" y="12" width="45" height="45"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="45" id="3XS-7x-N8f"/>
+                            <constraint firstAttribute="width" constant="45" id="nTS-l3-Ivp"/>
+                        </constraints>
+                        <userDefinedRuntimeAttributes>
+                            <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
+                                <real key="value" value="22.5"/>
+                            </userDefinedRuntimeAttribute>
+                            <userDefinedRuntimeAttribute type="boolean" keyPath="layer.masksToBounds" value="YES"/>
+                        </userDefinedRuntimeAttributes>
+                    </imageView>
+                    <label opaque="NO" userInteractionEnabled="NO" tag="2" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" usesAttributedText="YES" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="1qW-b6-6MF">
+                        <rect key="frame" x="67" y="35" width="239" height="14"/>
+                        <constraints>
+                            <constraint firstAttribute="height" relation="greaterThanOrEqual" constant="14" id="0yI-5u-E6e"/>
+                            <constraint firstAttribute="width" constant="217" id="MNj-Ph-5bR"/>
+                        </constraints>
+                        <attributedString key="attributedText">
+                            <fragment content="我有一个梦想">
+                                <attributes>
+                                    <color key="NSColor" white="0.33333333333333331" alpha="1" colorSpace="calibratedWhite"/>
+                                    <font key="NSFont" size="14" name="STHeitiSC-Light"/>
+                                    <paragraphStyle key="NSParagraphStyle" alignment="natural" lineBreakMode="wordWrapping" baseWritingDirection="natural"/>
+                                </attributes>
+                            </fragment>
+                        </attributedString>
+                        <color key="highlightedColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <variation key="default">
+                            <mask key="constraints">
+                                <exclude reference="MNj-Ph-5bR"/>
+                            </mask>
+                        </variation>
+                    </label>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" verticalHuggingPriority="251" misplaced="YES" text="带带" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Cs6-en-XSL">
+                        <rect key="frame" x="67" y="12" width="36" height="18"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="18" id="0M0-oT-M7m"/>
+                            <constraint firstAttribute="width" relation="greaterThanOrEqual" constant="34" id="6jc-NL-JaM"/>
+                        </constraints>
+                        <fontDescription key="fontDescription" type="boldSystem" pointSize="15"/>
+                        <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                        <color key="highlightedColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </label>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="OnJon 22" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="PZT-r1-7Op">
+                        <rect key="frame" x="111" y="15" width="125" height="14"/>
+                        <constraints>
+                            <constraint firstAttribute="width" constant="125" id="9qy-fK-lbp"/>
+                            <constraint firstAttribute="height" constant="14" id="tzt-rA-j5p"/>
+                        </constraints>
+                        <fontDescription key="fontDescription" type="system" pointSize="11"/>
+                        <color key="textColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
+                        <color key="highlightedColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </label>
+                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="YvJ-RS-OK9">
+                        <rect key="frame" x="266" y="54" width="46" height="29"/>
+                        <color key="backgroundColor" red="0.93725490199999995" green="0.93725490199999995" blue="0.95686274510000002" alpha="1" colorSpace="calibratedRGB"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="29" id="Wnm-K0-XIs"/>
+                            <constraint firstAttribute="width" constant="46" id="pWt-Pr-0HY"/>
+                        </constraints>
+                        <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                        <state key="normal" title="选择Ta"/>
+                        <userDefinedRuntimeAttributes>
+                            <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
+                                <integer key="value" value="5"/>
+                            </userDefinedRuntimeAttribute>
+                            <userDefinedRuntimeAttribute type="boolean" keyPath="layer.masksToBounds" value="YES"/>
+                        </userDefinedRuntimeAttributes>
+                    </button>
+                </subviews>
+                <constraints>
+                    <constraint firstItem="YvJ-RS-OK9" firstAttribute="trailing" secondItem="ysX-pX-f8A" secondAttribute="trailingMargin" id="2Vv-Sv-LUV"/>
+                    <constraint firstItem="1qW-b6-6MF" firstAttribute="top" secondItem="Cs6-en-XSL" secondAttribute="bottom" constant="5" id="7NB-e8-gQc"/>
+                    <constraint firstItem="o9c-6b-eeM" firstAttribute="leading" secondItem="ysX-pX-f8A" secondAttribute="leadingMargin" constant="6" id="7gp-SY-hzu"/>
+                    <constraint firstItem="Cs6-en-XSL" firstAttribute="top" secondItem="ysX-pX-f8A" secondAttribute="topMargin" constant="4" id="Hb4-kL-f1R"/>
+                    <constraint firstAttribute="trailingMargin" secondItem="1qW-b6-6MF" secondAttribute="trailing" constant="6" id="JxK-Q3-OQc"/>
+                    <constraint firstItem="PZT-r1-7Op" firstAttribute="top" secondItem="ysX-pX-f8A" secondAttribute="topMargin" constant="7" id="RhM-Fu-T8f"/>
+                    <constraint firstItem="1qW-b6-6MF" firstAttribute="leading" secondItem="o9c-6b-eeM" secondAttribute="trailing" constant="8" id="UZa-Cb-4np"/>
+                    <constraint firstItem="Cs6-en-XSL" firstAttribute="leading" secondItem="o9c-6b-eeM" secondAttribute="trailing" constant="8" id="WTc-kn-Di4"/>
+                    <constraint firstAttribute="bottomMargin" secondItem="YvJ-RS-OK9" secondAttribute="bottom" constant="-1.5" id="adJ-bM-eP0"/>
+                    <constraint firstItem="o9c-6b-eeM" firstAttribute="top" secondItem="ysX-pX-f8A" secondAttribute="topMargin" constant="4" id="lJJ-bq-Uyu"/>
+                    <constraint firstAttribute="trailingMargin" secondItem="PZT-r1-7Op" secondAttribute="trailing" constant="112" id="lbT-Yw-8Mg"/>
+                    <constraint firstItem="YvJ-RS-OK9" firstAttribute="top" secondItem="1qW-b6-6MF" secondAttribute="bottom" constant="5" id="wkw-Aa-TNw"/>
+                    <constraint firstItem="PZT-r1-7Op" firstAttribute="leading" secondItem="Cs6-en-XSL" secondAttribute="trailing" constant="8" id="x43-uA-baN"/>
+                </constraints>
+                <variation key="default">
+                    <mask key="constraints">
+                        <exclude reference="lbT-Yw-8Mg"/>
+                    </mask>
+                </variation>
+            </tableViewCellContentView>
+            <connections>
+                <outlet property="cellAvatarImageView" destination="o9c-6b-eeM" id="kpY-JY-yr1"/>
+                <outlet property="cellChooseButton" destination="YvJ-RS-OK9" id="rXk-OD-S2G"/>
+                <outlet property="cellCreateTimeLabel" destination="PZT-r1-7Op" id="tyc-hU-XQs"/>
+                <outlet property="cellDetailLabel" destination="1qW-b6-6MF" id="fpO-Ht-JNi"/>
+                <outlet property="cellNameLabel" destination="Cs6-en-XSL" id="4YK-UD-yKa"/>
+                <outlet property="chooseButtonHeightLayoutConstraint" destination="Wnm-K0-XIs" id="61x-xH-KWq"/>
+            </connections>
+            <point key="canvasLocation" x="242" y="300.5"/>
+        </tableViewCell>
+    </objects>
+    <resources>
+        <image name="ic_logo" width="150" height="150"/>
+    </resources>
+</document>

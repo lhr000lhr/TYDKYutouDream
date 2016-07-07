@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="9531" systemVersion="14F1021" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="9529"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" id="KGk-i7-Jjw" customClass="TYDKWishCreateTableViewCell">
+            <rect key="frame" x="0.0" y="0.0" width="320" height="220"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="KGk-i7-Jjw" id="H2p-sc-9uM">
+                <rect key="frame" x="0.0" y="0.0" width="320" height="219.5"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="98i-IY-fJk">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="220"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                        <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                    </textView>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="还能输入100个字" textAlignment="right" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Xrq-mI-kib">
+                        <rect key="frame" x="239" y="208" width="78" height="12"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="12" id="bcW-PE-D6e"/>
+                            <constraint firstAttribute="width" relation="greaterThanOrEqual" constant="78" id="eta-tM-1id"/>
+                        </constraints>
+                        <fontDescription key="fontDescription" type="system" pointSize="10"/>
+                        <color key="textColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="不知道怎么写？问问客服吧" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Rfo-jU-fRU">
+                        <rect key="frame" x="8" y="24" width="156" height="16"/>
+                        <constraints>
+                            <constraint firstAttribute="width" constant="156" id="1oH-ad-is2"/>
+                            <constraint firstAttribute="height" constant="16" id="I8y-ED-qu2"/>
+                        </constraints>
+                        <fontDescription key="fontDescription" type="system" pointSize="15"/>
+                        <color key="textColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="0-100个字符" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Vvv-RN-8Al">
+                        <rect key="frame" x="8" y="8" width="76" height="16"/>
+                        <constraints>
+                            <constraint firstAttribute="width" constant="76" id="6GJ-x3-d5N"/>
+                            <constraint firstAttribute="height" constant="16" id="LZY-qs-b1A"/>
+                        </constraints>
+                        <fontDescription key="fontDescription" type="system" pointSize="15"/>
+                        <color key="textColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                </subviews>
+                <constraints>
+                    <constraint firstItem="Rfo-jU-fRU" firstAttribute="top" secondItem="Vvv-RN-8Al" secondAttribute="bottom" id="1Pg-tz-vD7"/>
+                    <constraint firstAttribute="bottomMargin" secondItem="Xrq-mI-kib" secondAttribute="bottom" constant="-8" id="53z-LE-4Xz"/>
+                    <constraint firstAttribute="trailingMargin" secondItem="Xrq-mI-kib" secondAttribute="trailing" constant="-5" id="7FJ-xE-GyU"/>
+                    <constraint firstItem="98i-IY-fJk" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" id="FgJ-iV-rj6"/>
+                    <constraint firstAttribute="trailing" secondItem="98i-IY-fJk" secondAttribute="trailing" id="Gcu-TL-cBu"/>
+                    <constraint firstItem="Vvv-RN-8Al" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leadingMargin" id="KmV-2B-rlo"/>
+                    <constraint firstItem="98i-IY-fJk" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" id="Oi2-I6-NWt"/>
+                    <constraint firstItem="98i-IY-fJk" firstAttribute="centerY" secondItem="H2p-sc-9uM" secondAttribute="centerY" id="dGX-Bt-VpZ"/>
+                    <constraint firstItem="Vvv-RN-8Al" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="topMargin" id="ubb-vP-Bo6"/>
+                    <constraint firstItem="Rfo-jU-fRU" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leadingMargin" id="xFs-xK-4Vy"/>
+                </constraints>
+            </tableViewCellContentView>
+            <connections>
+                <outlet property="cellCountingLabel" destination="Xrq-mI-kib" id="cHO-8O-RWV"/>
+                <outlet property="cellNotificationFirstLabel" destination="Vvv-RN-8Al" id="uEb-Ci-Fl5"/>
+                <outlet property="cellNotificationSecondLabel" destination="Rfo-jU-fRU" id="54L-5l-r5o"/>
+                <outlet property="cellTextView" destination="98i-IY-fJk" id="5hq-o2-XTm"/>
+            </connections>
+        </tableViewCell>
+    </objects>
+</document>

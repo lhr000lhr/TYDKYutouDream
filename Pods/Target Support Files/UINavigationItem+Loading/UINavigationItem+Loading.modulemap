@@ -1,0 +1,6 @@
+framework module UINavigationItem_Loading {
+  umbrella header "UINavigationItem+Loading-umbrella.h"
+
+  export *
+  module * { export * }
+}

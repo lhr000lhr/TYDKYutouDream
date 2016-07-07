@@ -1,0 +1,110 @@
+//
+//  TYDK-iOSAPPTutorial-Prefix.pch
+//  TYDK-iOSAPPTutorial
+//
+//  Created by 李浩然 on 12/25/15.
+//  Copyright © 2015 tydic-lhr. All rights reserved.
+//
+
+#ifndef TYDK_iOSAPPTutorial_Prefix_pch
+#define TYDK_iOSAPPTutorial_Prefix_pch
+
+// Include any system framework and library headers here that should be included in all compilation units.
+// You will also need to set the Prefix Header build setting of one or more of your targets to reference this file.
+
+#ifdef __OBJC__
+#import "TYDKAppDelegate.h"
+#import <UIKit/UIKit.h>
+#import <Foundation/Foundation.h>
+
+//开源库
+#import "YYKit.h"
+#import "Masonry.h"
+#import "MJRefresh.h"
+#import "MJExtension.h"
+#import "LxDBAnything.h"
+#import "MZAppearance.h"
+#import "BlocksKit+UIKit.h"
+#import "UIImage+ResizeMagick.h"
+#import "MZFormSheetController.h"
+#import "UINavigationItem+Loading.h"
+#import "UIScrollView+EmptyDataSet.h"
+#import <ReactiveCocoa/ReactiveCocoa.h>
+#import "UITableView+FDTemplateLayoutCell.h"
+#import <RETableViewManager/RETableViewManager.h>
+
+
+//视图控制器父类
+#import "TYDKBaseViewController.h"
+#import "TYDKBaseTableViewController.h"
+#import "TYDKBaseNavigationController.h"
+
+//category
+#import "KM_NSArray+SafeValues.h"
+#import "KM_NSDictionary+SafeValues.h"
+#import "RETableViewCellStyle+TYDKCellStyle.h"
+
+//tools
+#import "TYDKToolUtilities.h"
+#import "StoryBoardUtilities.h"
+
+#import "TYDKDataManager.h"
+#import "TYDKBaseViewController.h"
+#import "TYDKBaseTableViewController.h"
+#import "TYDKBaseNavigationController.h"
+#import "TYDKSettingManager.h"
+#import "TYDKNotificationManager.h"
+#endif
+
+#ifdef DEBUG
+#    define NSLog(...) NSLog(__VA_ARGS__)
+#else
+#    define NSLog(...) {}
+#endif
+
+
+#define kSetting                   [TYDKSettingManager manager]
+#define kUser                      [TYDKDataManager manager].user
+
+#define kNavigationBarTintColor    kSetting.navigationBarTintColor
+#define kNavigationBarColor        kSetting.navigationBarColor
+#define kNavigationBarLineColor    kSetting.navigationBarLineColor
+
+#define kBackgroundColorWhite      kSetting.backgroundColorWhite
+#define kBackgroundColorWhiteDark  kSetting.backgroundColorWhiteDark
+
+#define kLineColorBlackDark        kSetting.lineColorBlackDark
+#define kLineColorBlackLight       kSetting.lineColorBlackLight
+
+#define kFontColorBlackDark        kSetting.fontColorBlackDark
+#define kFontColorBlackMid         kSetting.fontColorBlackMid
+#define kFontColorBlackLight       kSetting.fontColorBlackLight
+#define kFontColorBlackBlue        kSetting.fontColorBlackBlue
+
+#define kColorBlue                 kSetting.colorBlue
+#define kCellHighlightedColor      kSetting.cellHighlightedColor
+#define kMenuCellHighlightedColor  kSetting.menuCellHighlightedColor
+
+#define kCurrentTheme              kSetting.theme
+
+#define RGB(c,a)    [UIColor colorWithRed:((c>>16)&0xFF)/256.0  green:((c>>8)&0xFF)/256.0   blue:((c)&0xFF)/256.0   alpha:a]
+
+#define AppDelegate ((TYDKAppDelegate *)[UIApplication sharedApplication].delegate)
+
+// 是否为iOS7
+#define iOS7 ([[UIDevice currentDevice].systemVersion doubleValue] >= 7.0)
+
+//是否为iOS8及以上系统
+#define iOS8 ([[UIDevice currentDevice].systemVersion doubleValue] >= 8.0)
+#define TYDKCommonColor [UIColor colorWithRed:254/255.0  green:129/255.0 blue:0 alpha:1.0]
+#define TYDKSeparatorColor [UIColor colorWithWhite:0.878 alpha:1.000]
+#define TYDKThemeColor [UIColor colorWithRed:0.153 green:0.220 blue:0.294 alpha:1.000]
+
+static NSString * const kShowMenuNotification = @"ShowMenuNotificaion";
+static NSString * const kStatusBarTappedNotification = @"StatusBarTappedNotification";
+
+static NSString * const kShowLoginVCNotification = @"ShowLoginVCNotification";
+static NSString * const kLoginSuccessNotification = @"LoginSuccessNotification";
+static NSString * const kLogoutSuccessNotification = @"LogoutSuccessNotification";
+
+#endif /* TYDK_iOSAPPTutorial_Prefix_pch */
