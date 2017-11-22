@@ -18,12 +18,14 @@ YutouDream
 新浪微博：请关注“@鱼头” 
 微信服务号：鱼头（微信号：yutoutiyan）~~
 
-####Copyright
+#### Copyright
   Copyright © 2016 tydic-lhr. All rights reserved.
 
-####License
+#### License
 <a rel="license" href="http://creativecommons.org/licenses/by-nc-nd/4.0/"><img alt="Creative Commons License" style="border-width:0" src="https://i.creativecommons.org/l/by-nc-nd/4.0/88x31.png" /></a><br />This work is licensed under a <a rel="license" href="http://creativecommons.org/licenses/by-nc-nd/4.0/">Creative Commons Attribution-NonCommercial-NoDerivatives 4.0 International License</a>.
-  [1]: https://is1-ssl.mzstatic.com/image/thumb/Purple49/v4/a7/3a/78/a73a7896-75ea-a989-b1ba-a4538de74644/pr_source.png/150x150bb.jpg
+ 
+
+ [1]: https://is1-ssl.mzstatic.com/image/thumb/Purple49/v4/a7/3a/78/a73a7896-75ea-a989-b1ba-a4538de74644/pr_source.png/150x150bb.jpg
   [2]: https://is1-ssl.mzstatic.com/image/thumb/Purple49/v4/ef/f7/cf/eff7cf90-3fba-9eae-e3ba-f15cbfe2a223/pr_source.png/500x500bb.jpg
   [3]: https://is1-ssl.mzstatic.com/image/thumb/Purple49/v4/4f/2c/06/4f2c0690-ab8e-9c91-7c6a-a7814d9448f7/pr_source.png/500x500bb.jpg
   [4]: https://is1-ssl.mzstatic.com/image/thumb/Purple69/v4/c5/9e/95/c59e959f-e1ff-f73b-b332-e078ad910ba1/pr_source.png/500x500bb.jpg
